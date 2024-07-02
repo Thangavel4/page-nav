@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+  <script src="./bootstrap.min.js"></script>
+  <script src="./bootstrap.bundle.js"></script> 
+  <nav>
+    <div class="container p-5">
+      <ul class="nav nav-pills nav-fill d-flex justify-content-center" id="pills-tab" role="tablist">
+
+        <li class="nav-item">
+          <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" aria-controls="pills-home" aria-selected="true">Home</button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" aria-controls="pills-about" aria-selected="false">About</button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" aria-controls="pills-contact" aria-selected="false">Contact</button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" aria-controls="pills-login" aria-selected="false">Login</button>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" >
+        <h3>Home</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, perspiciatis.</p>
+      </div>
+      <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+        <h3>About</h3>
+        <p>consectetur adipisicing elit. Aspernatur, perspiciatis.Lorem ipsum dolor sit amet, </p>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <h3>Contact</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, perspiciatis.</p>
+      </div>
+      <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+        <h3>Login</h3>
+        <p>Aspernatur, perspiciatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
